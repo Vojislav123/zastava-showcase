@@ -39,8 +39,8 @@ export default function zastava101({}) {
           varijantama sa pet i troje vrata i najčešće sa motorom od 55 konjskih
           snaga, zapremine 1.100 kubika. Pored limuzine, &quot;Zastava 101&quot;
           je bila u ponudi i kao &quot;pikap&quot; dostavno vozilo, koje je
-          proizvodila fabrika &quot;Zastava specijalna vozila" iz Sombora i on
-          se proizvodio do 2010. godine.
+          proizvodila fabrika &quot;Zastava specijalna vozila&quot; iz Sombora i
+          on se proizvodio do 2010. godine.
         </p>
         <p className="m-4">
           &quot;Zastava 101&quot; je ubrzo po početku proizvodnje stekla status
