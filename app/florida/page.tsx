@@ -22,13 +22,13 @@ export default function Florida() {
 				bude izvozno orijentisan. Najvažniji ciljevi pri konstruisanju novog
 				automobila bili su da bude sastavljen od domaćih delova i da bude
 				moderan i konkurentan automobilima svoje klase iz Zapadne Evrope. To je
-				niža srednja klasa tzv. 'Golf' klase koja je na Zapadu činila 30% ukupne
+				niža srednja klasa tzv. Golf klase koja je na Zapadu činila 30% ukupne
 				prodaje. U Jugoslaviji ova klasa činila je 25% ukupne prodaje
 				automobila, zahvaljujući velikoj kupovnoj moći tih godina. Kao i
 				prilikom razvoja Juga, Zastava je računala na podršku Fijata. Oni su
 				strepeli da novi Zastavin model ne predstavlja konkurenciju, pa nisu
 				pružili podršku u očekivanoj meri. Ponudili su Zastavi da proizvodi
-				njihov nov model iz 'Golf' klase, tipo, ali su u Kragujevcu ovaj predlog
+				njihov nov model iz Golf klase, tipo, ali su u Kragujevcu ovaj predlog
 				odbili, jer su smatrali da imaju dovoljno resursa za samostalan razvoj
 				novog modela. Ono što još nisu počeli da razvijaju bili su motori.
 				Zastava je želela da kupi licencu za najnovije Fijatove agregate. Fijat
