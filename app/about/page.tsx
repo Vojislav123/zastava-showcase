@@ -4,7 +4,7 @@
 export default function aboutFactory() {
   return (
     
-    <section className="flex-col justify-center max-w-lg m-auto mb-10">
+    <section className="flex-col justify-center max-w-lg mx-auto my-40">
       <h1 className="m-8 text-6xl flex justify-center">Zastava</h1>
 
       <p className="flex m-4 justify-center text-center">

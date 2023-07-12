@@ -9,14 +9,14 @@ export default function zastava101({}) {
 
 
   return (
-    <div className="flex-col m-auto max-w-lg">
+    <div className="flex-col m-auto max-w-lg mt-32">
       <h1 className="flex justify-center text-6xl bold m-10">Zastava 101</h1>
       <Image
         src={zastava101Img}
         alt="zastava 101"
         width={600}
         height={undefined}
-        className="mb-10"
+        className="mb-10 rounded-xl"
       />
       <section className=" flex-col justify-center text-center m-auto mb-10">
         <p className="m-4">

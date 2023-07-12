@@ -9,16 +9,15 @@ import openButton from '../../public/bars-solid.svg';
 import closeButton from '../../public/xmark-solid.svg';
 
 
-const Navigation = () => {
+const Navigation: React.FC = () => {
     const refreshPage = () => {
         window.location.href = "/";
       };
 
-        const [navbar, setNavbar] = useState(false);
-
+        const [navBarHandler, setNavbarHandler] = useState(false);
 
       const navBar = (
-        <nav className="w-full bg-gray-900 fixed top-0 left-0 right-0 z-10 ">
+        <nav className="w-full bg-gray-700 fixed top-0 left-0 right-0 z-10 ">
           <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
             <div>
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -32,12 +31,14 @@ const Navigation = () => {
                     onClick={refreshPage}
                   />
                 </Link>
+
+
                 <div className="md:hidden">
                   <button
-                    className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
-                    onClick={() => setNavbar(!navbar)}
+                    className="p-2 text-gray-900 rounded-md outline-none focus:border-gray-400 focus:border"
+                    onClick={() => setNavbarHandler(!navBarHandler)}
                   >
-                    {navbar ? (
+                    {navBarHandler ? (
                       <Image
                         src={closeButton.src}
                         width={30}
@@ -54,30 +55,34 @@ const Navigation = () => {
                     )}
                   </button>
                 </div>
+
               </div>
             </div>
             <div>
               <div
                 className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                  navbar ? "p-12 md:p-0 block" : "hidden"
+                  navBarHandler ? "p-12 md:p-0 block" : "hidden"
                 }`}
               >
                 <ul className="h-screen md:h-auto items-center justify-center font-bold md:flex">
                   <li className=" text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-yellow-900 border-yellow-900 md:hover:text-yellow-600 md:hover:bg-transparent">
-                    <Link href="/" onClick={() => setNavbar(!navbar)}>
+                    <Link href="/" onClick={() => setNavbarHandler(!navBarHandler)}>
                       Home
                     </Link>
                   </li>
                   <li className="text-xl text-white py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-yellow-600 border-yellow-900 md:hover:text-yellow-600 md:hover:bg-transparent">
-                    <Link className="" href={"/zastava101"}>
+                    <Link href={"/zastava101"} onClick={() => setNavbarHandler(!navBarHandler)}>
                       Zastava 101
                     </Link>
                   </li>
                   <li className="text-xl text-white py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-yellow-600 border-yellow-900 md:hover:text-yellow-600 md:hover:bg-transparent">
-                    <Link href={"/jugo"}>Jugo</Link>
+                    <Link href={"/jugo"} onClick={() => setNavbarHandler(!navBarHandler)}>Jugo</Link>
                   </li>
                   <li className="text-xl text-white py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-yellow-600 border-yellow-900 md:hover:text-yellow-600 md:hover:bg-transparent">
-                    <Link href={"/about"}>O Zastavi</Link>
+                    <Link href={"/florida"} onClick={() => setNavbarHandler(!navBarHandler)}>Florida</Link>
+                  </li>
+                  <li className="text-xl text-white py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-yellow-600 border-yellow-900 md:hover:text-yellow-600 md:hover:bg-transparent">
+                    <Link href={"/about"} onClick={() => setNavbarHandler(!navBarHandler)}>O Zastavi</Link>
                   </li>
                 </ul>
               </div>

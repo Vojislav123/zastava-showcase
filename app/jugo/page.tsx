@@ -1,20 +1,21 @@
 
 import Image from 'next/image';
-import jugoImg from '../../public/IMG_0822.jpg';
+import Link from 'next/link';
+import jugoImg from '../../public/yugo/yugoLogo.jpg';
 
 
 const jugo = () => {
   return (
     <div className="flex-col m-auto max-w-lg mt-32">
+      <h1 className="flex justify-center text-6xl bold m-10">Jugo</h1>
       <Image
         src={jugoImg}
         alt="zastava 101"
         width={600}
         height={undefined}
-        className="my-14"
+        className="my-14 rounded-xl"
       />
       <section className=" flex-col justify-center text-center m-auto mb-10">
-        <h1 className="flex justify-center text-6xl bold m-10">Jugo</h1>
         <p className="m-4">
           Istorija Juga počinje 1971. kada, nakon predstavljanja modela 101,
           rukovodstvo fabrike odlučuje da izbaci novi moderno dizajnirani auto,
@@ -51,6 +52,15 @@ const jugo = () => {
           komercijalno ime novog modela, a među 3000 predloga pobedio je naziv
           Jugo, koji se dobro ukapao u trend imenovanja automobila po vetrovima.
         </p>
+
+        <Link
+          className="flex justify-center text-yellow-700 m-auto rounded-md outline-none focus:border-yellow-400 focus:border p-2"
+          href={
+            "https://sr.wikipedia.org/wiki/%D0%88%D1%83%D0%B3%D0%BE_(%D0%B0%D1%83%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB)"
+          }
+        >
+          Vise informacija
+        </Link>
       </section>
     </div>
   );
