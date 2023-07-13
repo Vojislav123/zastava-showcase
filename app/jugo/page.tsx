@@ -1,6 +1,8 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import Manual from '../components/Manual';
+
 import jugoImg from '../../public/yugo/yugoLogo.jpg';
 
 
@@ -62,6 +64,7 @@ const jugo = () => {
           Vise informacija
         </Link>
       </section>
+      <Manual book='/yugo/korisnickoUputstvo.pdf' />
     </div>
   );
 }

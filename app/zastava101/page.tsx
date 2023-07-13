@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import zastava101Img from '../../public/zastava101/Zastava_101L.jpg';
+import Manual from "../components/Manual";
 
 
 export default function zastava101({}) {
@@ -60,6 +61,7 @@ export default function zastava101({}) {
           Vise informacija
         </Link>
       </section>
+      <Manual book="/zastava101/korisnickoUputstvo101.pdf" />
     </div>
   );
 }

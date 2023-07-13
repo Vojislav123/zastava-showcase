@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import floridaImage from '../../public/florida/yugoFlorida_01.jpg'
+import Manual from '../components/Manual';
 
 export default function Florida() {
   return (
@@ -53,6 +54,7 @@ export default function Florida() {
 				}>
 				Vise informacija
 			</Link>
+			<Manual book='/florida/korisnickoFlorida.pdf' />
 		</div>
 	);
 }
