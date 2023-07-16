@@ -2,8 +2,13 @@
 
 import React from 'react'
 import Image from 'next/image';
+import { Metadata } from 'next';
 
 import ar55 from '../../public/ar55/Zastava_AR55.jpg';
+
+export const metadata: Metadata = {
+	title: 'Zastava AR55',
+  }
 
 export default function page() {
   return (
@@ -20,7 +25,7 @@ export default function page() {
 				className="mb-10 rounded-xl"
 			/>
 
-			<section className=" flex-col justify-center text-center m-auto mb-10">
+			<section className=" flex-col justify-center text-left m-auto mb-10">
 				<p className="m-4">
 					Zastava AR-51/55, poznat kao Kampanjola, je automobil iz klase
 					terenskih vozila, koji je po Fiatovoj licenci proizvodila kragujevačka

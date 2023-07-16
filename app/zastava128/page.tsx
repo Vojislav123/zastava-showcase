@@ -1,10 +1,22 @@
 
 
 import React from 'react'
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Manual from '../components/Manual';
 
 import zastava128 from '../../public/zastava128/zastava128_01.jpg';
+
+
+
+
+
+
+export const metadata: Metadata = {
+	title: 'Zastava 128',
+  }
+
+
 
 export default function page() {
   return (
@@ -17,7 +29,7 @@ export default function page() {
 				height={undefined}
 				className="mb-10 rounded-xl"
 			/>
-			<section className=" flex-col justify-center text-center m-auto mb-10">
+			<section className=" flex-col justify-center text-left m-auto mb-10">
 				<p className="m-4">
 					Zastava 128, poznata kao Osmica, je mali porodični auto, jugoslovenska
 					verzija automobila Fijat 128. Saradnja između Fijata i Zastave na

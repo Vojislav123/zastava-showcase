@@ -1,5 +1,9 @@
+import { Metadata } from "next";
 
-
+export const metadata: Metadata = {
+  title: 'O Zastavi',
+  description: 'Informacije o fabrici',
+}
 
 export default function aboutFactory() {
   return (
@@ -7,7 +11,7 @@ export default function aboutFactory() {
     <section className="flex-col justify-center max-w-lg mx-auto my-40">
       <h1 className="m-8 text-6xl flex justify-center">Zastava</h1>
 
-      <p className="flex m-4 justify-center text-center">
+      <p className="flex m-4 justify-center text-left">
         Zastava (ranije Zavodi Crvena zastava) je kompanija iz Kragujevca,
         osnovana 1853. godine. U svom sastavu imala je nekoliko preduzeća od
         kojih su najpoznatija: Zastava automobili: Ovo preduzeće je bilo

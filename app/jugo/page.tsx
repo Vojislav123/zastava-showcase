@@ -2,8 +2,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Manual from '../components/Manual';
+import { Metadata } from 'next';
 
 import jugoImg from '../../public/yugo/yugoLogo.jpg';
+
+
+
+
+export const metadata: Metadata = {
+	title: 'Zastava Yugo',
+  }
 
 
 const jugo = () => {
@@ -17,7 +25,7 @@ const jugo = () => {
         height={undefined}
         className="my-14 rounded-xl"
       />
-      <section className=" flex-col justify-center text-center m-auto mb-10">
+      <section className=" flex-col justify-center text-left m-auto mb-10">
         <p className="m-4">
           Istorija Juga počinje 1971. kada, nakon predstavljanja modela 101,
           rukovodstvo fabrike odlučuje da izbaci novi moderno dizajnirani auto,

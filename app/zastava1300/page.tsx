@@ -2,8 +2,18 @@
 
 import React from 'react'
 import Image from 'next/image';
+import { Metadata } from 'next';
 
 import z1300 from '../../public/1300/z1300.jpg';
+
+
+
+
+
+export const metadata: Metadata = {
+	title: 'Zastava 1300',
+  }
+
 
 export default function page() {
 
@@ -19,7 +29,7 @@ export default function page() {
 				className="mb-10 rounded-xl"
 			/>
 
-			<section className=" flex-col justify-center text-center m-auto mb-10">
+			<section className=" flex-col justify-center text-left m-auto mb-10">
 				<p className="m-4">
 					Zastava 1300, popularno Tristać je automobil koji je proizvodila
 					kragujevačka fabrika automobila Zastava. Ovaj automobil popularno

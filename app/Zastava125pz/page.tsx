@@ -1,9 +1,19 @@
 
 
+import { Metadata } from 'next';
 import React from 'react'
 import Image from 'next/image';
 
 import pezejac from '../../public/125pz/125pz.jpg';
+
+
+
+
+
+export const metadata: Metadata = {
+	title: 'Zastava 125 PZ',
+  }
+
 
 export default function page() {
 
@@ -18,7 +28,7 @@ export default function page() {
         height={undefined}
         className="mb-10 rounded-xl"
       />
-			<section className=" flex-col justify-center text-center m-auto mb-10">
+			<section className=" flex-col justify-center text-left m-auto mb-10">
 				<p className="m-4">
 					Početak proizvodnje Zastave 125PZ označio je jedan značajan trenutak u
 					jugoslovenskoj automobilskoj industriji. Ovaj model bio je

@@ -5,6 +5,12 @@ import Image from 'next/image';
 
 import floridaImage from '../../public/florida/yugoFlorida_01.jpg'
 import Manual from '../components/Manual';
+import { Metadata } from 'next';
+
+
+export const metadata: Metadata = {
+	title: 'Zastava Florida',
+  }
 
 export default function Florida() {
   return (
@@ -17,7 +23,7 @@ export default function Florida() {
 				height={undefined}
 				className="my-14 rounded-xl"
 			/>
-			<p className="flex m-4 justify-center text-center">
+			<p className="flex m-4 justify-center text-left">
 				U januaru 1983. počinje razvoj naslednika Zastave 101, pod kodnom
 				oznakom Zastava 103. Planirano je da razvoj traje 5 godina i da auto
 				bude izvozno orijentisan. Najvažniji ciljevi pri konstruisanju novog

@@ -1,10 +1,20 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from 'next';
 
 import zastava101Img from '../../public/zastava101/Zastava_101L.jpg';
 import Manual from "../components/Manual";
 
 
+
+
+
+
+export const metadata: Metadata = {
+	title: 'Zastava 101',
+  }
+
+  
 export default function zastava101({}) {
 
 
@@ -19,7 +29,7 @@ export default function zastava101({}) {
         height={undefined}
         className="mb-10 rounded-xl"
       />
-      <section className=" flex-col justify-center text-center m-auto mb-10">
+      <section className=" flex-col justify-center text-left m-auto mb-10">
         <p className="m-4">
           Zastava 101 odnosno Skala, popularno zvana Stojadin i Kec, bio je
           automobil koji je proizvodila fabrika &quot;Zastava automobili&quot;
