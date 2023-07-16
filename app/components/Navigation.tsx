@@ -77,14 +77,14 @@ const Navigation: React.FC = () => {
 								onMouseEnter={dropdownHandlerActive}
 								onMouseMove={dropdownHandlerActive}
 								onMouseLeave={dropdownHanderHide}
-								className="text-xl text-white py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-yellow-600 border-yellow-900 md:hover:text-yellow-600 md:hover:bg-transparent relative">
+								className="text-xl  text-white py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-yellow-600 border-yellow-900 md:hover:text-yellow-600 md:hover:bg-transparent relative">
 								<Link href={"/sviModeli"}>Svi modeli</Link>
 								{dropdown && (
 									<ul
 										onMouseEnter={dropdownHandlerActive}
 										onMouseMove={dropdownHandlerActive}
 										onMouseLeave={dropdownHanderHide}
-										className="absolute top-full left-0 w-full bg-grey-700 text-black p-2">
+										className="absolute top-full left-0 w-full bg-transparent text-white p-2">
 										<li className="text-sm m-2 cursor-pointer hover:text-yellow-600">
 											<Link
 												href={"/zastava101"}
