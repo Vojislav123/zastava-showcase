@@ -84,7 +84,7 @@ const Navigation: React.FC = () => {
 										onMouseEnter={dropdownHandlerActive}
 										onMouseMove={dropdownHandlerActive}
 										onMouseLeave={dropdownHanderHide}
-										className="absolute top-full left-0 w-full bg-white text-black p-2">
+										className="absolute top-full left-0 w-full bg-grey-700 text-black p-2">
 										<li className="text-sm m-2 cursor-pointer hover:text-yellow-600">
 											<Link
 												href={"/zastava101"}
