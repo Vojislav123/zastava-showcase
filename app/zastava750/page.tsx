@@ -2,9 +2,21 @@
 
 import React from 'react'
 import Image from 'next/image';
+import { Metadata } from 'next';
 
 import Z750 from '../../public/750/Zastava-750.webp'
 import Manual from '../components/Manual';
+
+
+
+
+
+export const metadata: Metadata = {
+	title: 'Zastava 750',
+  }
+
+
+
 
 export default function page() {
   return (
@@ -19,7 +31,7 @@ export default function page() {
 				className="mb-10 rounded-xl"
 			/>
 
-			<section className=" flex-col justify-center text-center m-auto mb-10">
+			<section className=" flex-col justify-center text-left m-auto mb-10">
 				<p className="m-4">
 					Zastava 750, poznat kao Fića, Fićo i Fičko, jugoslovenski je mali
 					putnički automobil koji se proizvodio u Zavodu Crvena Zastava u
